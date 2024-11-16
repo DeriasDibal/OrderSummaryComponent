@@ -14,7 +14,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ### Links
 
 - Solution URL: (http://127.0.0.1:5500/OrderSummaryComponent/index.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://order-summary-derias.vercel.app/)
 
 ## My process
 
