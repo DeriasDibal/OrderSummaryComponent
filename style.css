@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+ :root {
+       --Pale-blue: hsl(225, 100%, 94%);
+       --Bright-blue: hsl(245, 75%, 52%);
+       --Very-pale-blue: hsl(225, 100%, 98%);
+       --Desaturated-blue: hsl(224, 23%, 55%);
+       --Dark-blue: hsl(223, 47%, 23%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--Pale-blue);
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+}
+
+.main {
+    background-color: white;
+    margin: 50px auto;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.heading {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.heading > * {
+    margin: 13px 0px;
+}
+
+.title {
+    color: var(--Dark-blue);
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.description{
+    color: var(--Desaturated-blue);
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.plan {
+    background-color: var(--Very-pale-blue);
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 16px;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.plan p{
+    color: var(--Desaturated-blue);
+}
+
+.plandescription {
+    line-height: 20px;
+    margin-right: 75px;
+}
+
+.plandescription strong {
+    color: var(--Dark-blue);
+}
+
+.plan a{
+    color: var(--Bright-blue);
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.plan a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    width: 100%;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.payment {
+    background-color: var(--Bright-blue);
+    box-shadow: 0 20px 30px -8px rgb(197, 189, 245);
+    color: white;
+    padding: 1rem 0;
+}
+.payment:hover {
+    opacity: 0.8;
+}
+
+.cancel {
+    background-color: white;
+    color: var(--Desaturated-blue);
+    margin-top: 22px;
+}
+.cancel:hover {
+    color: black;
+}
