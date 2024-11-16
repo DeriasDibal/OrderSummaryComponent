@@ -8,8 +8,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Screenshot
 
-![](./images/Order-Summary-Component-Screenshot.jpg)
-![](./images/Order-Summary-Component-hover-Screenshot.jpg)
+![](Order-Summary-Component-Screenshot.jpg)
+![](Order-Summary-Component-hover-Screenshot.jpg)
 
 ### Links
 
